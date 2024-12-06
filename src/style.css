@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(97.5deg, rgba(11, 6, 6, 0.702), rgba(9, 54, 250, 0.482));
+}
+
+.titulo{
+    text-align: left;
+    margin: auto 20px;
+    font-size: 40px;
+    color: goldenrod;
+}
+
+ul{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+ul img {
+    display: block;
+    margin: 8px 7px;
+    width: 9vw;
+    height: 15vw;    
+    opacity: 50%;
+}
+
+ul img:hover,
+ul li:hover
+{
+    opacity: 100%;
+    color: red;
+}
+
+
+ul li {
+    margin-bottom: 50px;
+    color: rgba(250, 147, 29, 0.945);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.saida {
+    display: inline;
+    margin: auto;
+    width: 70vw;
+    height: 400px;
+    text-align: left;
+}
+
+img {
+    width: 200px;
+    display: inline-block;
+}
+
+.dados__personagem,
+.personagem__selecionado {
+    display: inline-block;
+    text-align: center;
+    clear: both;
+}
+
+#personagem__escolhido {
+    width: 300px;
+    height: 350px;
+    align-items: start;
+}
+
+.saida__dados {
+    display: inline;
+    font-size: 32px;
+    color: rgb(58, 58, 62);
+    text-align: center;
+}
